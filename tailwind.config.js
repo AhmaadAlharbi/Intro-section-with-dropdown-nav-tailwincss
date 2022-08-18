@@ -7,6 +7,9 @@ module.exports = {
         MediumGray: "hsl(0, 0%, 41%)",
         AlmostBlack: " hsl(0, 0%, 8%)",
       },
+      fontFamily: {
+        sans: ["Epilogue", "sans-serif"],
+      },
     },
   },
   plugins: [],
