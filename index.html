@@ -21,7 +21,7 @@
               <a href="#" class="group-hover:text-MediumGray" id="feature"
                 >Features</a
               >
-              <img src="images/icon-arrow-down.svg" alt="" />
+              <img id="feature-arrow" src="images/icon-arrow-down.svg" alt="" />
               <div
                 class="bg-white hidden py-7 absolute top-8 px-8 right-4 rounded-3xl"
                 id="features-menu"
@@ -66,7 +66,7 @@
               class="relative group flex items-center space-x-1 text-gray-400 hover:text-MediumGray font-bold"
             >
               <a href="#" id="company">Company</a>
-              <img src="images/icon-arrow-down.svg" alt="" />
+              <img id="company-arrow" src="images/icon-arrow-down.svg" alt="" />
               <div
                 class="bg-white hidden py-7 absolute top-8 px-8 left-0 rounded-3xl"
                 id="company-menu"
@@ -125,19 +125,23 @@
       <!-- mobile menu -->
 
       <div
-        class="hidden absolute bg-white w-[50%] h-full right-0 top-0"
+        class="hidden md:hidden absolute bg-white w-[50%] h-full right-0 top-0"
         id="mobile-menu"
       >
         <img
           class="absolute right-5 mt-10 cursor-pointer"
           src="images/icon-close-menu.svg"
           alt=""
-          id="burger"
+          id="close"
         />
         <div class="flex flex-col px-4 my-10 items-start space-y-4">
           <div class="relative group flex items-center space-x-2 text-gray-400">
             <a href="" id="feature-mobile">Features</a>
-            <img src="images/icon-arrow-down.svg" alt="" />
+            <img
+              id="featureMobile-arrow"
+              src="images/icon-arrow-down.svg"
+              alt=""
+            />
           </div>
           <div class="hidden bg-white pr-10" id="features-menu-mobile">
             <div class="group flex items-center space-x-3">
@@ -175,7 +179,11 @@
           </div>
           <div class="group flex items-center space-x-2 text-gray-400">
             <a href="#" id="company-mobile">Company</a>
-            <img src="images/icon-arrow-down.svg" alt="" />
+            <img
+              id="companyMobile-arrow"
+              src="images/icon-arrow-down.svg"
+              alt=""
+            />
           </div>
           <div class="hidden" id="company-menu-mobile">
             <div class="group flex items-center space-x-3">
